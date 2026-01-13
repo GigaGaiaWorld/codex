@@ -32,13 +32,3 @@ python -m auto_analyst.cli path/to/data.csv "What drives revenue by region?"
 
 Artifacts are written to `outputs/analysis_report.md` and plot images (if requested).
 
-## Run from code
-
-```python
-from auto_analyst import AutoAnalyst
-
-analyst = AutoAnalyst(output_dir="outputs")
-result = analyst.run("path/to/data.csv", "What drives revenue by region?")
-print(result["answer"])
-print(result["report_path"])
-```
