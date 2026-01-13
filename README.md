@@ -31,3 +31,4 @@ python -m auto_analyst.cli path/to/data.csv "What drives revenue by region?"
 ```
 
 Artifacts are written to `outputs/analysis_report.md` and plot images (if requested).
+
