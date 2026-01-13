@@ -1,0 +1,4 @@
+dspy-ai
+pandas
+matplotlib
+pyarrow
